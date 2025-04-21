@@ -2,6 +2,16 @@ html {
     scroll-padding-top: 2rem;
 }
 
+blockquote{
+    background-color: rgb(209, 225, 217);
+    margin-top: 1rem; 
+    padding: 1rem; 
+    background: #fffbe6; 
+    border-left: 
+    4px solid #f5c518;
+    
+}
+
 body {
     font-family: "Inter Tight", sans-serif;
     display: flex;

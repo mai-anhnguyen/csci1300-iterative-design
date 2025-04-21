@@ -34,27 +34,80 @@
       <section id="input">
         <h2>The Problem Statement</h2>
         <p>
-          The first step of any design process is identifying the problem(s) one hopes to solve. In our case, we communicated with Zest’s lead UI Designer to establish a solid foundation for our work. The problem was as such: Zest’s current interface for CSV uploading was too restrictive, frustrating customers and limiting businesses' ability to customize their interface. We were tasked with creating an interface that could accommodate a diverse set of inputs while streamlining the whole process for the customer. 
-        </p>
+          The first step of any design process is identifying the problem(s) one hopes to solve. In our case, we communicated with Zest’s lead UI Designer to establish a solid foundation for our work. The problem was as such: </p>
+          <blockquote>
+            Zest’s current interface for CSV uploading was too restrictive, frustrating customers and limiting businesses' ability to customize their interface. We were tasked with creating an interface that could accommodate a diverse set of inputs while streamlining the whole process for the customer. 
+          </blockquote>
+
       </section>
 
       <section id="output">
         <h2>Step 1: Initial Concepting</h2>
         <p>Once we had a clear idea of the problem we were trying to solve, each member of our team sketched out a series of screens representing four unique implementations of the feature. None of us communicated during this process, and we didn’t look at Zest’s current interface. The purpose of this step was to generate fresh ideas.</p>
+        <h3>Concept #1:</h3>
         <p>The first set of sketches represent four main steps. First, the user selects how they would like to enter the recipient info. After following the instructions to upload a CSV (should they choose that option), they are taken to a page which informs them of all required fields. If they choose to continue, a loading screen updates them on the status of their upload.</p>
         <p>Key Features:</p>
-        <ol>
+        <ul>
           <li>Presents the user with alternatives to CSV upload</li>
           <li>Option to download CSV template</li>
           <li>Provides clear instructions to the user at each step of the process</li>
           <li>Clear distinction between required and optional fields</li>
           <li>Visual updates keep the user engaged during down-time</li>
+        </ul>
+
+        <h3> Concept #2: </h3>
+        <p>In the second set of sketches, three main steps comprise the feature: </p>
+          <ol>
+            <li>First, the user may choose to upload a CSV or add recipients manually.</li>
+            <li>After uploading a CSV, they see the field mappings and can fix any errors that appear.</li>
+            <li>Finally they see a finalized recipients list after submitting.</li>
+          </ol>
+        <p>Key Features:</p>
+        <ul>
+          <li>Presents the user with alternatives to CSV upload</li>
+          <li>Option to download CSV template</li>
+          <li>Original CSV rendered in-window</li>
+          <li>Visualization of mapping from user-supplied columns to required fields (First & Last → Full Name)</li>
+          <li>Errors displayed on the side; counter for number of errors remaining</li>
+          <li>User must fix all errors before continuing</li>
+        </ul>
+        <h3> Concept #3: </h3>
+        <p>The third set of sketches follows a similar process as the second: </p>
+        <ol>
+          <li>The first screen provides users with an area to upload their CSV.</li>
+          <li>The second presents errors and an interface for interpreting and resolving them.</li>
+          <li>Finally, they can see their original CSV displayed with no errors before submitting.</li>
         </ol>
+        <p>Key Features:</p>
+        <ul>
+          <li>Progress bar at the top to keep user informed</li>
+          <li>Field checklist for CSV upload visible before uploading</li>
+          <li>Highlights on errors in rendered CSV</li>
+          <li>Option to only show rows with errors</li>
+          <li>Dropdown-based visualization of content mapping</li>
+          <li>Visual representation of unused columns (“unselect columns”)</li>
+        </ul>
+        <h3> Concept #4: </h3>
+        <p>The fourth set of sketches also follows a similar set of steps: </p> 
+        <ol>
+          <li>On the first screen, the user uploads their CSV.</li>
+          <li>Next, they are taken to a page which renders their original CSV with errors displayed.</li>
+          <li>The user can click on the CSV to open a new page with an enlarged and editable rendering of their CSV, where they can fix errors.</li>
+        </ol>
+        <p>Key Features:</p>
+        <ul>
+          <li>Large field for uploading CSV</li>
+          <li>Loading icon to track upload progress</li>
+          <li>Errors displayed to the side of rendered CSV</li>
+          <li>Error cells in CSV highlighted red</li>
+          <li>Clicking on CSV opens new window for editing</li>
+        </ul>
+
       </section>
 
       <section id="state-models">
         <h2>Step 2: Combining Our Ideas</h2>
-        <p>Once all four of us had come up with unique implementations of the feature, it was time to combine them into one unified wireframe. The purpose of this step was to take the best ideas from each of our concepts and build a prototype using them. Using four independently-created concepts allowed us to identify which features we had converged on, while also prompting us to investigate areas where our implementations differed. The result was a prototype where each feature had been weighed against alternatives—a much more robust first draft than any one of us could have created alone.</p>
+        <p>Once all four of us had come up with unique implementations of the feature, it was time to combine them into one unified wireframe. The purpose of this step was to take the best ideas from each of our concepts and build a prototype using them. Using four independently-created concepts allowed us to identify which features we had converged on, while also prompting us to investigate areas where our implementations differed. The result (shown below) was a prototype where each feature had been weighed against alternatives—a much more robust first draft than any one of us could have created alone.</p>
       </section>
 
       <section id="component-redesign">
