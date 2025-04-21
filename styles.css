@@ -92,6 +92,9 @@ img {
     height: auto;
     display: block;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    border-style: solid;
+    border-color: rgb(15, 15, 176);
+    border-width: 3px;
 }
 
 .state-model {
